@@ -588,3 +588,108 @@ html{
 .section6-card__logo--youtube{
   border: none;
 }
+.section7{
+  background-image: url(../images/Rectangle\ 14.png);
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.section7__title{
+  color: white;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px ;
+  padding-bottom: 18px;
+}
+.section7__text{
+  color: white;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  padding: 0 37px 32px;
+}
+.section7__cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section7__card{
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card1{
+  width: 343px;
+  height: 250px;
+  position: relative;
+  z-index: 1;
+}
+.card2{
+  width: 343px;
+  height: 215px;
+  position: relative;
+  left: 276px;
+}
+.card3{
+  width: 343px;
+  height: 215px;
+  position: relative;
+  right:276px;
+}
+.section7__card--profile{
+  padding-top: 20px ;
+  padding-bottom: 12px;
+}
+.section7__card--profile img{
+  border-radius: 50%;
+  width: 50px;
+}
+.section7__card--title{
+  color: var(--color-black);
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section7__card--subtitle{
+    color: var(--color-black);
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.section7__card--text{
+  color: var(--color-gray);
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+  padding: 0 14px 20px;
+}
+.section7__slider{
+  padding-top: 40px ;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+  width: 154px;
+}
+.circle--white{
+  color: white;
+  font-variation-settings:
+  'FILL' 1;
+  font-size: 2em;
+}
