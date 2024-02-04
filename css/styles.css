@@ -110,6 +110,9 @@ html{
 .text__hidden3{
   display: none;
 }
+.text__hidden5{
+  display: none;
+}
 .box1-download{
   font-size: 2em;
   font-weight: 600;
@@ -1424,6 +1427,12 @@ html{
   }
   .copyright-logo span{
     font-size: 2.4em;
+  }
+  .text__hidden5{
+    display: inline;
+  }
+  .text__hidden6{
+    display: none;
   }
 }
 @media screen and (min-width:1440px) {
